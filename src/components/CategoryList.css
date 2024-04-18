@@ -1,0 +1,17 @@
+.categorylist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    padding-right: 50px;
+
+}
+
+.categorylist li {
+    margin: 25px;
+}
+
+.categorylist li a {
+    text-decoration: none;
+}
