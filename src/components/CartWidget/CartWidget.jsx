@@ -1,4 +1,4 @@
-import CartIcon from "./CartIcon";
+import CartIcon from "../CartIcon/CartIcon";
 
 function CartWidget() {
     return(

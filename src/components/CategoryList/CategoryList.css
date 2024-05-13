@@ -1,0 +1,33 @@
+.categorylist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    padding-right: 50px;
+
+}
+
+.categorylist li {
+    margin: 25px;
+    padding:10px;
+    background-color: #e2e2e2cb;
+    border-radius: 5px;
+}
+
+.categorylist li:hover{
+    background-color: #8e8e8e;
+}
+
+.isActive {
+    background-color: #8e8e8e;
+    border-radius: 5px;
+    padding:10px;
+    text-decoration: none;
+    color:black;
+}
+
+.noActive {
+    text-decoration: none;
+    color:black;
+}

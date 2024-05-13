@@ -1,4 +1,4 @@
-function Brand() {
+function Footer() {
     return (
         <div>
             <h1>Lucky Blue</h1>
@@ -6,4 +6,4 @@ function Brand() {
     )
 }
 
-export default Brand;
+export default Footer;
