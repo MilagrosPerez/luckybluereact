@@ -13,7 +13,7 @@ const productos = [
     id: 1,
     nombre: "Arnés ajustable",
     descripcion: "Arnés cómodo y ajustable para paseos seguros con tu perro",
-    stock: 100,
+    stock: 5,
     categoria: "arneses",
     precio: 25.99,
     imagen: arnesajustable
@@ -22,7 +22,7 @@ const productos = [
     id: 2,
     nombre: "Correa retráctil",
     descripcion: "Correa retráctil para mayor libertad de movimiento durante los paseos",
-    stock: 50,
+    stock: 7,
     categoria: "correas",
     precio: 15.49,
     imagen: correaretractil
@@ -31,7 +31,7 @@ const productos = [
     id: 3,
     nombre: "Collar reflectante",
     descripcion: "Collar con material reflectante para mayor visibilidad durante la noche",
-    stock: 80,
+    stock: 1,
     categoria: "collares",
     precio: 10.99,
     imagen: collarreflectante
@@ -40,7 +40,7 @@ const productos = [
     id: 4,
     nombre: "Abrigo impermeable",
     descripcion: "Abrigo resistente al agua para proteger a tu perro de la lluvia",
-    stock: 60,
+    stock: 3,
     categoria: "abrigos",
     precio: 35.79,
     imagen: abrigoimp
@@ -49,7 +49,7 @@ const productos = [
     id: 5,
     nombre: "Arnés de seguridad para automóvil",
     descripcion: "Arnés especial para asegurar a tu perro durante los viajes en automóvil",
-    stock: 30,
+    stock: 4,
     categoria: "arneses",
     precio: 29.99,
     imagen: arnesauto
@@ -58,7 +58,7 @@ const productos = [
     id: 6,
     nombre: "Correa de adiestramiento",
     descripcion: "Correa resistente para sesiones de adiestramiento y obediencia",
-    stock: 70,
+    stock: 10,
     categoria: "correas",
     precio: 20.99,
     imagen: correa
@@ -67,7 +67,7 @@ const productos = [
     id: 7,
     nombre: "Collar antipulgas",
     descripcion: "Collar que repele pulgas y garrapatas para proteger a tu perro de parásitos",
-    stock: 90,
+    stock: 9,
     categoria: "collares",
     precio: 12.49,
     imagen: collarantipulgas
@@ -76,7 +76,7 @@ const productos = [
     id: 8,
     nombre: "Abrigo térmico",
     descripcion: "Abrigo con material térmico para mantener a tu perro caliente en invierno",
-    stock: 40,
+    stock: 4,
     categoria: "abrigos",
     precio: 45.99,
     imagen: abrigotermico
