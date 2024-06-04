@@ -19,7 +19,7 @@ export default function CartContainer({ item }) {
             <CartDetails cart={cart} total={total}/>
         </div>
         <br />
-        <div class="botonesCart">
+        <div className="botonesCart">
         <div>
             <button className="botonLimpiar" onClick={limpiar}>
                 Limpiar Carrito
