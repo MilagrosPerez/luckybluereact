@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import useProduct from "../../hooks/useProduct";
-import ItemList from "../Item/ItemList";
+import ItemDetail from "../ItemDetail/ItemDetail";
 
 export default function ItemDetailContainer() {
     const params = useParams()
@@ -15,6 +15,6 @@ export default function ItemDetailContainer() {
       }
 
     console.log([producto])
-    return (<div><ItemList productos={[producto]} /></div>)
+    return (<div><ItemDetail item={producto} /></div>)
 
 };

@@ -1,0 +1,41 @@
+.contenedorCarrito {
+    
+    margin:20px
+}
+
+.botonesCart {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botonLimpiar {
+    background: gray;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botonFinalizar {
+    background: rgb(98, 160, 98);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

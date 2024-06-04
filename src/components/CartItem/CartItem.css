@@ -1,0 +1,52 @@
+.contenedorCart {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #444;
+    border-radius: 5px;
+
+    }
+
+.contendorImgCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+.imagenCart {
+    max-width: 90%;
+    height: 200px;
+    padding: 10px;
+}
+
+.tituloNombreCart {
+    text-align: center;
+    background-color: none;
+    color: #ca6702;    
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.cantidad {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.cantidadCart {
+    font-weight: bold;
+}
+
+.precioCart {
+    text-align: center;
+    font-weight: bold;
+}
+
+

@@ -1,11 +1,10 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
 import useCount from "../../hooks/useCount";
 import ItemCount from "../ItemCount/ItemCount";
-import "./Item.css"
+import "./ItemDetail.css"
 import CartContext from "../../contexts/CartContext";
-import { useContext } from "react";
 
-export default function Item({ item }) {
+export default function ItemDetail({ item }) {
   const { count, increment, decrement, reset } = useCount(0);
   const { agregar } = useContext(CartContext);
 
@@ -19,7 +18,7 @@ export default function Item({ item }) {
       <div className="contenedorImg">
         <img src={item.imagen} alt={item.title} className="imagen"/>
       </div>
-      <NavLink to={`/productos/${item.id}`} className="nombreItem"><h2 className="tituloNombre">{item.nombre}</h2></NavLink>
+      <h2 className="tituloNombre">{item.nombre}</h2>
       
       <p className="descripcion">{item.descripcion}</p>
       <p className="precio">${item.precio}</p>

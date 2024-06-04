@@ -1,15 +1,22 @@
-import { useState, useEffect } from "react";
-import { getProductById } from "../mock/asyncMock";
+import { useEffect, useState } from "react";
+import {doc, getDoc, getFirestore} from "firebase/firestore";
 
-export default function useProduct(id) {
-const [producto, setProducto] = useState([]);
-const [isLoading, setLoading] = useState(true);
+export default function useProduct(productoId) {
+    const [producto, setProducto] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
-useEffect( () => {
-    getProductById(id)
-    .then((data) => setProducto(data))
-    .finally(() => setLoading(false))
-}, [id])
+    useEffect(() => {
+    setIsLoading(true);
+    const db = getFirestore();
+    const producto = doc(db, "Productos", productoId);
+    if (productoId) {
 
-return {producto, isLoading} 
+        getDoc(producto).then((snapshot) => 
+            {if(snapshot.exists())
+                {setProducto({id: snapshot.id,...snapshot.data()});
+        }}).finally(()=> setIsLoading(false))
+    }
+}, [productoId]);
+
+return { producto, isLoading };
 }
